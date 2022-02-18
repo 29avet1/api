@@ -38,7 +38,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/29avet1/dingo-blueprint"
+            "url": "https://github.com/29avet1/dingo-blueprint",
+            "reference": "b7b597d2c56cd649d8c96dfef68c3d6c529bf121"
         }
     ],
     "suggest": {
