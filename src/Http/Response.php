@@ -209,7 +209,8 @@ class Response extends IlluminateResponse
         }
 
         try {
-            return parent::setContent($content);
+            parent::setContent($content);
+            return $this;
         } catch (UnexpectedValueException $exception) {
             $this->original = $content;
 
