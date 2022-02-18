@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": "^7.2.5|^8.0",
-        "dingo/blueprint": "0.2-dev",
+        "dingo/blueprint": "dev-0.2-dev",
         "illuminate/routing": "^8.0|^9.0",
         "illuminate/support": "^8.0|^9.0",
         "league/fractal": "^0.19"
