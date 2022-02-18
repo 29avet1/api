@@ -59,6 +59,9 @@
         }
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        },
         "laravel": {
             "providers": [
                 "Dingo\\Api\\Provider\\LaravelServiceProvider"
