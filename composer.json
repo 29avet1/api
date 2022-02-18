@@ -14,7 +14,7 @@
     }],
     "require": {
         "php": "^7.2.5|^8.0",
-        "dingo/blueprint": "laravel-9",
+        "dingo/blueprint": "dev-laravel-9",
         "illuminate/routing": "^8.0|^9.0",
         "illuminate/support": "^8.0|^9.0",
         "league/fractal": "^0.19"
