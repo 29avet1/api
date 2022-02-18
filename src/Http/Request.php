@@ -36,7 +36,7 @@ class Request extends IlluminateRequest implements RequestInterface
             $old->cookies->all(), $old->files->all(), $old->server->all(), $old->content
         );
 
-        if ($session = $old->getSession()) {
+        if ($old->hasSession()) {
             $new->setLaravelSession($old->getSession());
         }
 
