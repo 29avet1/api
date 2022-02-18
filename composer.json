@@ -12,9 +12,14 @@
         "name": "Jason Lewis",
         "email": "jason.lewis1991@gmail.com"
     }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/29avet1/dingo-blueprint" 
+        }
+    ],
     "require": {
         "php": "^7.2.5|^8.0",
-        "dingo/blueprint": "dev-master-l9",
         "illuminate/routing": "^8.0|^9.0",
         "illuminate/support": "^8.0|^9.0",
         "league/fractal": "^0.19"
@@ -35,12 +40,6 @@
         "squizlabs/php_codesniffer": "~2.0",
         "tymon/jwt-auth": "1.0.*"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/29avet1/dingo-blueprint"
-        }
-    ],
     "suggest": {
         "tymon/jwt-auth": "Protect your API with JSON Web Tokens."
     },
